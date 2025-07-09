@@ -33,5 +33,5 @@ function atualizarPorcentagem(){
     const skillBar = document.getElementById('exatas');
     // Multiplicando por 10 pq temos 10 questões, mudem se tiverem números diferentes.
     skillBar.style.width = quantidade_a*10+'%';
-    skillBar.textContent = quantidade_a*10+'%';
+    skillBar.innerHTML = quantidade_a*10+'%';
 }
